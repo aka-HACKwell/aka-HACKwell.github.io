@@ -21,7 +21,11 @@ button:hover {
 }
 .follow_button:hover {
   color: white;
-  background-color: black;
+  background-color: rgb(27, 27, 104);
+}
+.follow_button:active {
+  background-color: rgb(60, 60, 197);
+  transition: background-color 0.15s;
 }
 .winner_button {
   background-color: rgb(2, 6, 41);
