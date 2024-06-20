@@ -11,13 +11,23 @@ button {
 }
 button:hover {
   cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.follow_button {
+  color: white;
+  background-color: rgb(63, 63, 221);
+  font-weight: 500;
+  font-size: large;
+}
+.follow_button:hover {
+  color: white;
+  background-color: black;
 }
 .winner_button {
   background-color: rgb(2, 6, 41);
   color: rgb(255, 255, 255);
 }
 .winner_button:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
   background-color: white;
   color: rgb(2, 6, 41);
 }
@@ -30,7 +40,6 @@ button:hover {
   color: rgb(255, 255, 255);
 }
 .dinner_button:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
   background-color: white;
   color: rgb(5, 11, 66);
 }
@@ -44,21 +53,22 @@ button:hover {
   color: rgb(255, 255, 255);
 }
 .buy_button:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgb(207, 69, 189);
+  color: darkblue;
 }
 .sign_button {
   background-color: rgb(2, 6, 41);
   color: rgb(255, 255, 255);
 }
 .sign_button:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  color: black;
+  background-color: white;
 }
 .log_button {
   background-color: rgb(2, 6, 41);
   color: rgb(255, 255, 255);
 }
 .log_button:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
   color: aqua;
 }
 p {
