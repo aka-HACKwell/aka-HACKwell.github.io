@@ -11,6 +11,9 @@ button {
   font-size: medium;
   transition: box-shadow 1.5s, color 1s, background-color 1s;
 }
+button:hover {
+  cursor: pointer;
+}
 .winner_button {
   border: none;
   background-color: rgb(2, 6, 41);
