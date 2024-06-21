@@ -80,6 +80,17 @@ p {
   margin: 0px 0px;
   color: rgb(96, 96, 96);
 }
+.hello_world {
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(73, 73, 255);
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
 .first_para {
   font-size: 18px;
   font-weight: 600;
